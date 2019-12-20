@@ -1,0 +1,20 @@
+version: "3"
+services:
+  node_server:
+    image: tagion/demo_node
+    build: 
+      context: .
+      dockerfile: ./Dockerfile.server
+    volumes:
+      - ./:/node/
+    tty: true
+  node_client:
+    image: tagion/demo_node_client
+    build: 
+      context: .
+      dockerfile: ./Dockerfile.client
+    volumes:
+      - ./:/node/
+    depends_on:
+        - "node_server"
+  

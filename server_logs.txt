@@ -1,0 +1,2179 @@
+signature=182a108e1448dc8f1fb467d06a0f3bb8ea0533584cb954ef8da112f1d60e39a21c66f36da211c087f3af88b50edf4f9bdaa6cf5fd6817e74dca34db12390c6e9
+signature=a2390ed6f112a18def54b94c583305eab83b0f6ad067b41f8fdc48148e102a18e9c69023b14da3dc747e81d65fcfa6da9b4fdf0eb588aff387c011a26df3661c
+Before verify db35ce5c4ae095a8fdbde300bc9520b2765021aaded426e058bae35149d4cf8a7291f0536b54880f309b6be3a208d0022d2f8b5aea1ecb5a798a41ab85826628
+Afer verify=true
+recever.verified=true
+Pubkey 03782D48E6973AE452229CA5768834DE12F79B2B2279BCE3E8B754DC41C3E1D119:33
+Started scripting engine API started on 0.0.0.0:18444.
+Initiated fibers %d1001
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null false
+acceptWithFiber
+fibers !is null false
+acceptWithFiber 0
+fibers !is null false
+NOT has_free_fiber
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=1Wrote data.
+rec_data_length=209
+Before verify 7cbb2b23cc551e2bbe135c291d1001c02625b87d2200548379f56810f994c6994ba0601c7f792ccae90b0d69b7076e37c882b20b00d874139d87eff79f6dc377
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=2Wrote data.
+rec_data_length=209
+Before verify 0c8c042330976b26c5bbebd86d0d69bce53501e23e9c52ed2b14d252f52edb5133c4de6aea7e1efaf806cb7735d03c08757bdb28665adaea87b6deec68d5ae66
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=3Wrote data.
+rec_data_length=209
+Before verify d41078f780c626c7d434ba61b0f6980aacc42ac4c8fd19f346a0e960fd84981f37ef40142428f4710f4a64b51e16e309ed581fb9574934888cf36e0137adb1e6
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+Type exit to close program.
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=4Wrote data.
+rec_data_length=209
+Before verify 131dd01caba42426581d3b8daaec5ee8f3de25e4e59c111a10b37d60b779745010675165b3bd407c844feaaeb76b2162092bd39882417d4c2bf2eb944fe133d7
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=5Wrote data.
+rec_data_length=209
+Before verify ab987917faab5b1941eae6d862c29258ad62d87aeaab43bdb489edf6adbea6361058814060ff431eadd043ca6e8f3c2c5d8f66c69fb39745288a5ba10aa7f229
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=6Wrote data.
+rec_data_length=209
+Before verify 6969f21466ab3921a4020c20e6f9d5a5ff104aeef6aff8aba8465a7683295286515cc3582b83a6c39b9e0d871da1b47543ba0cbdef50e3d90f069a88e81637cc
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=7Wrote data.
+rec_data_length=209
+Before verify 98eb93c02e7732f82c3310c983fa0047c4b65d48123862a2542aa0e9667c4368040739130cf0d1dc60d0e3ed02aad1be71f504f9722e776f42f500dbf296a3ef
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=8Wrote data.
+rec_data_length=209
+Before verify 9ef00c1643d051e40bf68097f3d1a51231906a0e4e14c4d2f0db3954e98f331c5a0d2865f006ffecc9ef39c8f6310640e89658f304a34eeae888d604cbcb6c94
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=9Wrote data.
+rec_data_length=209
+Before verify 8ab375a6bd21095e051ad4d831f2f7b2b09b054521124b60a1693e60ca73b1f551ef5681146c7d5a5665d75fcb4e5800c3d0ec2a663537b3c480700d7a55d291
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=10Wrote data.
+rec_data_length=209
+Before verify bd8299fa30ba770b787579239babfe259d22c7ccd85023972b62b8c0a9e988055f2b283011d8e1e1d2004637d48ee75de4261740685fdbe3a421abc814b2a9e6
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=11Wrote data.
+rec_data_length=209
+Before verify 971e858e1bcbdfa23b343538272666fe6ab47bf8f2aab3d358a2a596e72fcf2a6283d6d983d025fe8e256e31fbdd2f4302d06533e4e1469b373ce5ac5d1bb1d7
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=12Wrote data.
+rec_data_length=209
+Before verify 48fc9eb7806c2c14f3ebb7ac8437487ec6f50706a52cf5d7fcc48407ab67d7992a836f992ed6a6fe224064085a3320e1e0696dee2f763ea214cb89531335d4d8
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=13Wrote data.
+rec_data_length=209
+Before verify 0be9733fe0d218ce4a041d24b2a15bd9462ebeafc5851d36ca2b1c94607abc2054ea7ea712bb97f5d6ecdb501704fb7b7104cad0ec5a80e35cbe505a205341b2
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=14Wrote data.
+rec_data_length=209
+Before verify cb717f767c6599b66ec235e6a1a9966fa7cf3b6c14269d5be2aac277c4ae85d223b65150991982eb8af556946fddc77ff85725f8529562600575e58293ef082e
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=15Wrote data.
+rec_data_length=209
+Before verify a4ac64f00d5960344d77ce512b9ca5072a72bfe1ff8e4c08f233482f6a02eea0444fd1a275c06d214ec992ed078c787853b3166341bc300b4d245b0594aeb352
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=16Wrote data.
+rec_data_length=209
+Before verify 23d46bf765dfa17b7a1a53bb47f93d0b7f708c3de8b15627e52aede7e634a55b259a8546bd41cbdfd19cb904327b64da36842282cc0ca15e751c8411fad7e039
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=17Wrote data.
+rec_data_length=209
+Before verify 3f770b65bf681b930fe0c55e1a28e25997c10298f84f0af4735f7e2a2b76475709cab321be9d9f438c063370fbef65c1fe5bc284e81b15691c26f7e008ca0f2d
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=18Wrote data.
+rec_data_length=209
+Before verify de948ca30f927c70b62c734e8b6af5991705aa9dee1105dbc136ab107c6e099b55cc8d432250df7110e22a1d7bdc43d5e269798abec36ccad3ca82e513d95463
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=19Wrote data.
+rec_data_length=209
+Before verify b4cd1ebe6a73966affd572d0a865331132f073ca3753bfaeec6360d163d4bc7d23fed272e995c01dd011ddca1726529c803afc463bbbedb26c4aac2d7e0d0ea2
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=20Wrote data.
+rec_data_length=209
+Before verify 8660438b7f16bbe3d10727c95ee35fdc177a9de9f13ebb83ecdaa8fb2b82b9de60501c2245a5add42474aaf0b178168051ed27ac0d35bbd5c9d51b446527f22e
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=21Wrote data.
+rec_data_length=209
+Before verify 8a93b62d7117e20d5cdd4fc983e436bdd52520b868057aa4216207906906e80c4e9d48d89f91e860927c6dfa4099a721ae710a05ef60a7c8a8da62ce4d8db3ca
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=22Wrote data.
+rec_data_length=209
+Before verify 881c8770e23b1dcc8538891c86618adfabd078c87adc0b35ed6ca0d68d0963dc5ea9b55be345ca24a2a4751a2f4498c0e4fa4ead0d3845113bd7289d92912f4b
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=23Wrote data.
+rec_data_length=209
+Before verify abecae73a346a2ca5d1be639f67da9181e5398660bdb38bf3f77e2fd5ad550b23ad0c87f625a2afd2f45a090cbee162a6d079c23f4de4bd098bd99589402cbde
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=24Wrote data.
+rec_data_length=209
+Before verify eac8b2adf601280c4abb5a947f78e8a616f60b4d7661cb8eb66089e26bfe6a9e100e5889494a76eef2992d36398976c4f4ba23d8a22d7c50bcf9ba14e68cc97b
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=25Wrote data.
+rec_data_length=209
+Before verify 8e8fbbe750791d69918d4cde41d3f85d2362167ac7575b1149bf24f83c67ab402d7abbc388eab9a997763feb47ae3b4417d5d2456c579663e32712f99a1e5e0f
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=26Wrote data.
+rec_data_length=209
+Before verify 0f806c11a6b08610105c573a46697c915c7548ec31b94fc5ee3d3fb6db83234974c1696fe20b17bf16bf12eaa4f915752895a2e406110c9e3b0b6bd9af4c4b3a
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=27Wrote data.
+rec_data_length=209
+Before verify 44a48d082b705af6cb41a41964ce0af84d98ea2de5af603670ff897f8648095d4004d34c6c9931805076f51d9a36bed6987e03527be83262c63efdbced8207bb
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=28Wrote data.
+rec_data_length=209
+Before verify eb4806b153361e3e14f9b53960476fb4ef580c4f0e33b502ff905e3632a7494717d11815ad869078022084465e843816145fcf62cb328b655ba6a157e37b2729
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=29Wrote data.
+rec_data_length=209
+Before verify 76b245f8603ffcb695c604b0dffe058cbfe773c19d53ba71e48deb73238947e11b95cdf809ac7af4d915e59383998c9a2e1f6a05ea7e28e87f60dc174eafb44d
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=30Wrote data.
+rec_data_length=209
+Before verify 830e1603f13bf211b26154e10e8dc4af6c267a2b37ca115cdd45774dd3a98a1b6be394ba0d6d71d7d4cd9b08fea8e529e99cc6215602e5c7116bef2aea63ee0c
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=31Wrote data.
+rec_data_length=209
+Before verify d76a87843e37963c2ab1a36d88ff195fba848783a9a5735440fdeed46c866b7d59771309c85f3753d38f701f66c7bd5e3ffddfa15d5cf4169e2ba15d712f8e0d
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=32Wrote data.
+rec_data_length=209
+Before verify 045ed89d22d261bcab15606fb8036e7b90580cd7a6c0efd563afe40b9378eb4f79f15c736e11da688ef5c36d6eb25451286d79af526c98e88536f3650c2bee36
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=33Wrote data.
+rec_data_length=209
+Before verify 6486ee78acdbedc498ded9567cd1f117dccd7aa520e118eebec3328a377d13c479b91f24b9b8645dadf92088f3ff8cf885635d29aede9d5825a08e0af190bfb4
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=34Wrote data.
+rec_data_length=209
+Before verify 996556a98143b587c57ff01725bcedb248c29f8ec4840a0a1c3e89a6743868bd63a8814f2cf2d1a3c54c36a6ed5740e60099a2ff7eba0c5ce29ec7d51a99052a
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=35Wrote data.
+rec_data_length=209
+Before verify 8a8d3044557bb66b0181903c50cde246b3acc69664742501af7089a5baeb172f1e95932a526a62485056f864af8c02c8077ebc63aeed102a231c6a969d4bb157
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=36Wrote data.
+rec_data_length=209
+Before verify 28341ceb79ceeb1dc87ca72e5362423f776ef853b1eb6acd857449af01b4b8da1fbd8f18a075f6b3aefc9ef8b8f283251ce644560d9744c4bd6c7568bce80aff
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=37Wrote data.
+rec_data_length=209
+Before verify 45ed7e74e937a2b722689891d5e6e8d46c6ca98a138aaecdb2a4811df6fe8acd59a45335c57b406c13dd857377d0224c7f649315edb0dc9e1a9852c65378adcd
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=38Wrote data.
+rec_data_length=209
+Before verify 9ed3aecf033c4a2cb27b4162c2e456b63d29cff7717d5e84f20e447abc7f0357482b204f18e7dd7789d486325fb4f6b9bf99f890c63b5762530a285c1b0506e9
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_complete = false
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active timeout 1sec
+sel_res=0
+Before handle fiber cycle
+key=0
+SSL_accept 1
+Accepted new SSL connection
+operation_complete = true
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+key=39Wrote data.
+rec_data_length=209
+Before verify f5a4dcd67023805deedf3426db95a4cba261ac2b985e8a91d035659fc0bbef592fe63d9fbabb28f9643f26c610f9eb8d0fe28eec9d691c5c8c5c97cdac9f26d2
+Afer verify=true
+Send true response
+Wrote data.
+Disconnet client. Closing client and clean up SSL.
+
+After service.handleClients
+After socket_set.isSet
+Before handle fiber cycle
+After handle fiber cycle
+Another cycle
+socket_set.add
+service.addClientsToSocketSet
+service active
+sel_res=1
+Before service.handleClients
+After service.handleClients
+IF socket_set.isSet
+fibers !is null true
+acceptWithFiber
+fibers !is null true
+acceptWithFiber 1
+fibers !is null true
+has_free_fiber
+fibers !is null true
+After socket_set.isSet
+Before handle fiber cycle
+key=0
+Accepting new client
+SSL_accept -1
+SSL_ERROR_WANT_READ
+operation_compl

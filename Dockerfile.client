@@ -1,0 +1,12 @@
+FROM ubuntu:18.04
+RUN apt-get update && apt-get install inotify-tools -y && apt-get install openssl -y
+
+WORKDIR /node/
+
+COPY ./pem_files ./pem_files
+
+COPY ./tagion_client ./tagion_client
+
+RUN chmod +x ./tagion_client
+
+CMD ./tagion_client -i node_server -p 18444 | tee client_logs.txt

@@ -1,0 +1,74 @@
+{
+    "dart": {
+        "path": "",
+        "prefix": "",
+        "task_name": ""
+    },
+    "delay": 200,
+    "heartbeat": {
+        "task_name": "heartbeat"
+    },
+    "infinity": false,
+    "logext": "log",
+    "logger": {
+        "file_name": "\/tmp\/tagion.log",
+        "task_name": "tagion.logger"
+    },
+    "loops": 30,
+    "message": {
+        "language": "",
+        "update": false
+    },
+    "min_port": 6000,
+    "monitor": {
+        "max": 0,
+        "port": 10900,
+        "prefix": "Monitor",
+        "task_name": "Monitor",
+        "timeout": 500
+    },
+    "node_id": 0,
+    "node_name": "",
+    "nodeprefix": "Node",
+    "nodes": 4,
+    "path_arg": "",
+    "scripting_engine": {
+        "address": "0.0.0.0",
+        "certificate": "pem_files\/domain.pem",
+        "max_connections": 1000,
+        "max_number_of_accept_fibers": 100,
+        "max_number_of_fiber_reuse": 1000,
+        "max_queue_length": 100,
+        "min_duration_for_accept_ms": 3000,
+        "min_duration_full_fibers_cycle_ms": 10,
+        "min_number_of_fibers": 10,
+        "name": "engine",
+        "port": 18444,
+        "private_key": "pem_files\/domain.key.pem",
+        "task_name": "",
+        "tmp_debug_bills_filename": "",
+        "tmp_debug_dir": ""
+    },
+    "seed": 42,
+    "separator": "_",
+    "sequential": false,
+    "stdout": "\/dev\/tty",
+    "timeout": 800,
+    "tmp": "\/tmp\/",
+    "trace_gossip": false,
+    "transaction": {
+        "max": 0,
+        "port": 10800,
+        "prefix": "Transaction",
+        "task_name": "Transaction",
+        "timeout": 250
+    },
+    "transcript": {
+        "enable": false,
+        "pause_from": 333,
+        "pause_to": 888,
+        "prefix": "Transcript",
+        "task_name": "Transcript"
+    },
+    "url": "127.0.0.1"
+}
