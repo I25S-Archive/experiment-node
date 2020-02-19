@@ -8,7 +8,7 @@ Follow the guide to run it with docker-compose and observe the printout.
 ## Node Demonstration Guide
 
 #### If you don't have Docker Compose
-If you don't have Docker Compose, plese follow [official installation guide](https://docs.docker.com/compose/).
+If you don't have Docker Compose, please follow [official installation guide](https://docs.docker.com/compose/).
 
 #### Run with Docker Compose
 Clone this repository, and execute `docker-compose up`, it will start the client and the server, after downloading and building docker images (only on the first run).
